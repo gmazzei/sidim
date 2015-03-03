@@ -1,0 +1,25 @@
+#page-content {
+    position: relative;
+    top: 7%;
+    background-image: url('http://drossmedia.com/wp-content/uploads/2011/04/protectcom_bg.jpg');
+    background-size: cover;
+}
+
+.thumbnail {
+    width: 350px;
+    height: 450px;
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.thumbnail img { 
+    min-height: 230px; 
+    height: 230px;
+    overflow: hidden;
+}
+
+
+#footer span {
+    color: #FFA500;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--All pages-->
+	<title>SIDIM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="css/img/sidim-logo.jpg" type="image/jpg" sizes="16x16">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/navbar-style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/stylesheet-main.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<!-- Contact Page -->
+	<link rel="stylesheet" href="css/stylesheet-contact.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/map-script.js"></script>
+	
+</head>
+
+
+
+<body>
+
+
+	<!--Navbar-->
+
+	<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	    <div class="container">
+	        <div class="navbar-header">
+	        	<a class="navbar-brand navbar-logo" href="#"><img id="sidim-logo" src="css/img/sidim-logo.jpg"/></a>
+	        	<a class="navbar-brand">SIDIM</a>
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+	            </button>
+	        </div>
+	        <div class="collapse navbar-collapse navbar-menubuilder">
+	            <ul class="nav navbar-nav navbar-right">
+	                <li>
+	                	<a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a>
+	                </li>
+	                <li>
+	                	<a href="our-services.html"><span class="glyphicon glyphicon-plus"></span>Nuestros servicios</a>
+	                </li>
+	                <li>
+	                	<a href="about-us.html"><span class="glyphicon glyphicon-user"></span>Acerca de nosotros</a>
+	                </li>
+	                <li class="active">
+	                	<a href="contact.html"><span class="glyphicon glyphicon-phone"></span>Contacto</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+	
+
+	<!-- Page content -->
+	<div id="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Contacto</h1>
+					<br>
+					<p>Encaramos todos los proyectos que emprendemos colocando a la comunicación con el cliente como una de las piezas fundamentales de los mismos.</p>
+					<p>No dude en ponerse en contacto con nosotros. Estamos siempre para responder sus inquietudes.</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+
+				<div class="col-md-2">
+				</div>
+
+				<div id="contact-data" class="col-md-4">
+					<div class="text-center">
+						<!--<img class="img-circle" src="http://japanese-tutor.co.za/wp-content/uploads/2014/02/Brown-CONTACT-ICON6.png">-->
+						<p><strong>Direcci&oacute;n:</strong> Lorem Ipsum 1238</p>
+						<p><strong>Tel&eacute;fono:</strong> 11-2345-6789</p>
+						<p><strong>Mail:</strong> info.sidim@gmail.com</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="text-center">
+						<div id="social-media-icon-wrapper">
+							<div>
+								<div class="icon-wrapper"><a href="https://www.facebook.com/aaazzz"><img src="css/img/social-media/facebook.png"></a></div>
+								<div class="icon-wrapper"><a href="#"><img src="css/img/social-media/googleplus.png"></a></div>
+								<div class="icon-wrapper"><a href="#"><img src="css/img/social-media/twitter.png"></a></div>
+							</div>
+							<div>
+								<div class="icon-wrapper"><a href="#"><img src="css/img/social-media/youtube.png"></a></div>
+								<div class="icon-wrapper"><a href="#"><img src="css/img/social-media/blogger.png"></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+				</div>
+
+			</div>
+
+		</div>
+
+		<hr>
+
+		<div class="container-fluid">
+			<div id="googleMap"></div>
+		</div>
+
+		<hr>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1>Enviar un mensaje</h1>
+					<form role="form" action="MAILTO:gmazzei91@gmail.com" method="post" enctype="text/plain">
+						<div class="form-group">
+							<input type="text" class="form-control" name="name" placeholder="Nombre" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" name="mail" placeholder="Direcci&oacute;n de Email" required>
+						</div>
+						<div class="form-group">
+							<textarea name="comment" class="form-control" size="50" rows="3" placeholder="Escriba su mensaje a continuaci&oacute;n..." required></textarea>
+						</div>
+						<p class="text-muted">Le responderemos a la brevedad.</p>
+						<div>
+							<input type="submit" class="btn btn-primary input-md" value="Enviar">
+							<input type="reset" class="btn btn-default input-md" value="Limpiar">
+						</div>
+					</form>
+
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</div>
+
+</body>
+</html>
