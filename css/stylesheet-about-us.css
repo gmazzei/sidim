@@ -1,0 +1,21 @@
+footer {
+    margin: 50px 0;
+}
+
+#page-content {
+	padding-top: 6%;
+    background-image: url('http://drossmedia.com/wp-content/uploads/2011/04/protectcom_bg.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+#page-content img {
+	box-shadow: 0 2px 2px black;
+}
+
+.img-center {
+	margin: 0 auto;
+}

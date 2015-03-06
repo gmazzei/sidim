@@ -22,6 +22,9 @@ html, body {
 	margin-right: 8px;
 }
 
+.navbar-fixed-top {
+	box-shadow: 0 0 2px black;
+}
 
 
 * {
